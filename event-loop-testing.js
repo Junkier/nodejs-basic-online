@@ -216,3 +216,33 @@
 //    -> console.log(4) (1st nextTickQueue)
 //    -> console.log(2) (2nd microTaskQueue)
 //    -> console.log(3) (3rd macroTaskQueue)
+
+////////////////////////////////////////////////////////////////////////
+// const OS = require("os");
+
+// console.log(OS.cpus().length);
+process.env.UV_THREADPOOL_SIZE = 6; // 調整 libuv 裡的 thread_pool_size , 即為 thread size (default 為 4)
+
+const start = Date.now();
+const crypto = require("crypto");
+const fs = require("fs");
+function doHash() {
+    crypto.pbkdf2('a', 'b', 100000, 512, 'sha512', () => {
+        console.log('Hash:', Date.now() - start);
+    });
+}
+
+doHash();
+doHash();
+doHash();
+doHash();
+
+fs.readFile("./a.js", "utf8", () => {
+    console.log('FS:', Date.now() - start);
+})
+
+
+// doHash();
+// doHash();
+// doHash();
+// doHash();

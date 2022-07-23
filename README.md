@@ -11,7 +11,7 @@
    - Node.js(1)  - 零基礎 語法學習
    - Node.js(2)  - 非同步處理
    - Node.js(3)  - Express 打造 API 
-   - Node.js 中手 - Event Loop 機制 
+   - Node.js 中手 - Single thread 與 Event-loop  
 
 ## Outline 
    - 此 repo 為線上課程輔助教材 , 還請一併閱讀使用

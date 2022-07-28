@@ -43,7 +43,7 @@
     2) 本試題為練習拆分成 router , 故 server.js 僅能遵守 ```app.use(...)``` 的用法
 
        切勿將 ```app.get("/hello/greeting",...)``` 等相關程式碼 , 寫在 server.js 上
-    3) 解答將於於 [宇先程式](https://reurl.cc/kL6bLK) 的頻道上
+    3) 解答於 [宇先程式](https://reurl.cc/kL6bLK) 的頻道上
 ---
 
 4. 反思區

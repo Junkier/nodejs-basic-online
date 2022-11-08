@@ -27,7 +27,7 @@
 
        <h3>目的： 讓使用者可透過這些 API , 進而修改 data.json 的資料</h3>
        
-    3) 解答將於 **週三** 公佈於 [宇先程式](https://youtube.com/@yuhsuanCode) 的頻道上
+    3) 解答於 [宇先程式](https://youtube.com/@yuhsuanCode) 的頻道上
 
 ---
 

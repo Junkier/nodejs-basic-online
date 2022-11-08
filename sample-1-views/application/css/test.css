@@ -1,0 +1,23 @@
+.prod-img{
+    width: 100%;
+}
+
+ /* class=prod-box 的屬性效果 */
+.prod-box{
+    border: 1px solid #000; /*  邊線 效果 */
+    padding: 10px ;  /*  內部間距 效果 */
+    margin: 10px;     /*  外部間距 效果 */
+}
+
+
+/* id=first-prod 的屬性效果 */
+#first-prod{
+    border: 1px solid #ea2;
+    border-radius: 25px;
+}
+
+/* id=second-prod 的屬性效果 */
+#second-prod{
+    border: 1px solid #0aa;
+    border-radius: 35px;
+}

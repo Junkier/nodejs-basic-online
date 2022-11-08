@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
+
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="/css/layout.css" />
+
+    <title>Node.js 教學</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo mt-1"> <a href="/">{{ templateName }} 您好 !</a></div>
+            </div>
+            <div class="sidebar-content">
+                <ul class="list-unstyled components">
+                    <li>
+                        <a href="#dramasBorrow" data-toggle="collapse" aria-expanded="false"  class="dropdown-toggle">
+                            <span class="icon-holder">
+                                <i class="far fa-address-card"></i> </span>
+                            <span class="menu-title">影集管理系統</span>
+                        </a>
+                        
+                        <ul class="collapse list-unstyled" id="dramasBorrow">
+                            <li>
+                                <a href="/dramas/page"> 影集資料設定 </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#aboutMe" data-toggle="collapse" aria-expanded="false"  class="dropdown-toggle">
+                            <span class="icon-holder">
+                                <i class="fas fa-file-invoice-dollar"></i> </span>
+                            <span class="menu-title">其他</span>
+                        </a>
+                        
+                        <ul class="collapse list-unstyled" id="aboutMe">
+                            <li>
+                                <a href="#"> 關於我們 </a>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content-container">
+            <div class="menu-header">
+                <button type="button" id="sidebarCollapse" class="btn menu-btn  m-1 text-white">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+
+            <div class="m-2 p-2">
+                <h2>Hello world!!</h2>
+                <hr>
+                <p style="color:#f00">這是一個關於我們的好網頁</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+
+    <script type="text/javascript" src="/js/main.js"></script>
+</body>
+
+</html>

@@ -12,7 +12,7 @@
 
    即可從 http://localhost:8088 看到 API 說明文件, 相關資料放在 **data.json** 中 
         
-   亦可參考線上版 [Swagger.io 文件](https://reurl.cc/NZkVD6)
+   亦可參考線上版 [Swagger.io 文件](https://reurl.cc/OEp7py)
 
 3. 補充說明 
     1) 資料夾結構應為
